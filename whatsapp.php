@@ -10,7 +10,7 @@ if ($iphone || $android || $palmpre || $ipod || $berry == true)
 {
   header('Location: https://api.whatsapp.com/send?phone=5567999098648&text=Olá%20Preciso%20de%20um%20Orçamento!');
   //OR
-  echo "<script>window.location='https://api.whatsapp.com/send?phone=5511994526066&text=Olá%20Preciso%20de%20um%20Orçamento!'</script>";
+  echo "<script>window.location='https://api.whatsapp.com/send?phone=5567999098648&text=Olá%20Preciso%20de%20um%20Orçamento!'</script>";
 }
 // all others
 else {
